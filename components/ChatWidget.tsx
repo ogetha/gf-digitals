@@ -11,8 +11,7 @@ export default function ChatWidget() {
         <div className="mb-3 w-72 border border-line bg-paper p-5 shadow-none">
           <p className="text-sm font-medium text-ink">Chat with GF Digitals</p>
           <p className="mt-2 text-sm text-charcoal/70">
-            [PLACEHOLDER — replace with real contact options, e.g. WhatsApp
-            link, email, or an embedded chat tool like Crisp/Tawk.to]
+            Questions about what your brand needs? Send us a message.
           </p>
           <a
             href="mailto:hello@gfdigitals.com"
@@ -26,7 +25,7 @@ export default function ChatWidget() {
       <button
         onClick={() => setOpen((v) => !v)}
         aria-label={open ? "Close chat" : "Open chat"}
-        className="flex h-14 w-14 items-center justify-center border border-ink bg-ink text-paper hover:bg-gold hover:border-gold hover:text-ink"
+        className="flex h-14 w-14 items-center justify-center border-2 border-ink bg-gold text-ink shadow-[4px_4px_0_0_#0A0A0A] hover:bg-ember"
       >
         {open ? "✕" : "Chat"}
       </button>

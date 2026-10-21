@@ -39,8 +39,8 @@ export default function ExitIntentPopup() {
         </button>
         <h3 className="text-2xl text-ink">Before you go</h3>
         <p className="mt-3 text-sm text-charcoal/75">
-          [PLACEHOLDER] Get our free [resource name] — and if it looks like a
-          fit, we&apos;ll follow up personally.
+          Get free guides, frameworks and ready-to-use resources from GF
+          Digitals, sent to your inbox.
         </p>
         {/* Wire this up to your email provider */}
         <form className="mt-6 flex flex-col gap-3" action="#" method="POST">
@@ -59,7 +59,7 @@ export default function ExitIntentPopup() {
             type="submit"
             className="border border-ink bg-ink px-5 py-3 text-sm font-medium text-paper hover:bg-gold hover:border-gold hover:text-ink"
           >
-            Send it to me
+            Get free resources
           </button>
         </form>
       </div>

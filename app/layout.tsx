@@ -20,7 +20,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "GF Digitals — Digital Strategy, AI & Systems",
   description:
-    "GF Digitals helps ambitious brands build, optimize, and scale their digital presence through strategy, intelligent systems, and disciplined execution.",
+    "GF Digitals helps ambitious brands build strategic digital systems that increase visibility, strengthen brand positioning and drive business growth through creative strategy, AI-powered automation and professional brand management.",
 };
 
 export default function RootLayout({

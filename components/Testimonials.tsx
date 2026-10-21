@@ -21,13 +21,20 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="bg-cream">
+    <section className="bg-mint">
       <div className="mx-auto max-w-6xl px-6 py-16 md:px-10 md:py-24">
-        <h2 className="text-3xl">What clients say</h2>
+        <h2 className="text-3xl">
+          The work speaks. Our clients add their perspective.
+        </h2>
+        <p className="mt-3 max-w-xl text-charcoal/70">
+          Explore what it&apos;s like to work with GF Digitals, from the
+          challenges our clients bring to the experiences and outcomes they
+          share.
+        </p>
 
-        <div className="mt-10 grid gap-px overflow-hidden border border-line bg-line md:grid-cols-3">
+        <div className="mt-10 grid gap-px overflow-hidden border-2 border-ink bg-ink md:grid-cols-3">
           {testimonials.map((t, i) => (
-            <figure key={i} className="bg-paper p-7">
+            <figure key={i} className="bg-paper p-7 border-t-4 border-t-gold">
               <blockquote className="text-sm text-charcoal/85">
                 &ldquo;{t.quote}&rdquo;
               </blockquote>
